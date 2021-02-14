@@ -1,0 +1,269 @@
+body {
+    background-color: rgb(216, 209, 183);
+}
+
+
+
+.big {
+    text-transform: uppercase;
+}
+
+.container {
+    width: max-content;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 350px 50px 200px 350px 400px 50px 350px ;
+    grid-template-rows: 150px 350px 30px 220px 100px 50px; 
+    grid-gap: 10px;
+}
+
+.grid-item1 {
+  grid-column: 1 / 3;
+}
+
+.suveg {
+    float: left;
+    width: 90px;
+}
+
+.neville_pic {
+    float: right;
+    width: 130px;
+    margin-top: 20px;
+}
+
+.Neville {
+    font-size: 35px;
+    margin-top: 27px;
+    text-align: justify;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.grid-item2 {
+   grid-column: 3 / 6;
+    background-image: url(Source/img/cim.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
+
+.grid-item3 {
+    grid-column: 6 / 8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.right-top-text {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.right-top-text-bottom {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    margin: 0px;
+    background-color: black;
+    color:  rgb(216, 209, 183);
+}
+
+.grid-item4 {
+    margin: 0px;
+    grid-column: 1 / 4;
+    font-size: 150px;
+    text-align: center;
+    background-color: #000000;
+    color: rgb(216, 209, 183);
+}
+
+.grid-item4-stuff {
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.grid-item5 {
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: justify;
+}
+
+.grid-item5-stuff {
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.grid-item6 {
+    grid-column: 5 / 7;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.grid-item6-stuff {
+    width: 70%;
+    text-align: right;
+    float: right;
+}
+
+.grid-item7 {
+    grid-column: 7 /8;
+    grid-row: 2 / 4;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ujj {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Page5 {
+    margin: 0px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.F {
+    float: left;
+}
+
+.grid-item8 {
+    grid-row: 3 / 6;
+    font-size: 25px;
+    text-align: center;
+}
+
+.grid-item8-stuff {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.grid-item8-stuff2 {
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.grid-item8-stuff3 {
+    margin: 0px;
+    font-family: serif;
+    font-weight: bolder;
+}
+
+hr {
+    border: black 1px solid;
+    width: 75%;
+}
+
+@font-face {
+    font-family: Fridays;
+    src: url(Source/Fridays.ttf);
+}
+
+.grid-item8-stuff4 {
+    margin: 0px;
+    font-family: Fridays;
+}
+
+.container-smol {
+    font-size: 30px;
+    font-family: Fridays;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+}
+
+.grid-item9 {
+    grid-column: 2 / 5 ;
+    grid-row: 3 / 6;
+    text-align: center;
+}
+
+.piton {
+    width: 60%;
+}
+
+.grid-item10 {
+    grid-column: 5 / 7;
+    grid-row: 3 / 5;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.grid-item10-stuff {
+   
+    font-size: 40px;
+    margin: 0px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.W {
+    float: left;
+    padding-top: 10px;
+}
+
+.grid-item11 {
+    grid-column: 7 / 8;
+    grid-row: 4 / 5;
+    background-image: url(Source/img/roxfort.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.grid-item12 {
+    grid-column: 5 / 8;
+    grid-row: 5 / 6;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: justify;
+   
+}
+
+.grid-item12-stuff {
+    margin: 0px;
+    font-size: 25px;
+}
+
+.grid-item12-stuff2 {
+    margin: 0px;
+    font-family: Fridays;
+
+}
+
+.grid-item12-stuff3 {
+    margin: 0px;
+    text-align: justify;
+    width: 300%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mc {
+    float: left;
+    height: 100px;
+}
+
+.grid-item13 {
+    padding-left: 50px;
+    grid-column: 2 / 8;
+    grid-row: 6 / 7;
+}
+
+.bottom {
+    float: left;
+}
+
+.ujj2 {
+    height: 50px;
+   float: left;
+}
+
+.grid-item13-stuff {
+    margin-top: 0px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
